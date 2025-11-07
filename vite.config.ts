@@ -1,12 +1,12 @@
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react-swc';
+import path from 'path';
 
-  import { defineConfig } from 'vite';
-  import react from '@vitejs/plugin-react-swc';
-  import path from 'path';
-
-  export default defineConfig({
-    base: '/shanelai/', 
-    plugins: [react()],
-    resolve: {
+// ✅ Shane final fixed version
+export default defineConfig({
+  base: './', // 使用相对路径，支持自定义域名 shanelai.com
+  plugins: [react()],
+  resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
         'vaul@1.1.2': 'vaul',
@@ -137,12 +137,14 @@
         '@': path.resolve(__dirname, './src'),
       },
     },
-    build: {
-      target: 'esnext',
-      outDir: 'build',
-    },
+build: {
+  target: 'esnext',
+  outDir: 'dist',   // ✅ 改成 dist
+  emptyOutDir: true // 可选：构建前清空
+},
     server: {
       port: 3000,
       open: true,
     },
   });
+
