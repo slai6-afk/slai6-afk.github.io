@@ -63,7 +63,7 @@ export function HomePage() {
               transition={{ duration: 1, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
             >
               <motion.a
-                href="mailto:shanshan.lai@pratt.edu"
+                href="mailto:shanshanlai160402@gmail.com"
                 whileHover={{ opacity: 0.6 }}
                 className="inline-flex items-center gap-3"
                 style={{ fontSize: '16px', fontWeight: 400, color: '#000000' }}
