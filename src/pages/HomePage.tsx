@@ -71,11 +71,25 @@ export function HomePage() {
                 <Mail size={20} />
                 <span>Get in touch:shanshanlai160402@gmail.com</span>
               </motion.a>
-            </motion.div>
-          </motion.div>
-        </div>
-      </section>
 
+<div
+  style={{
+    marginTop: '8px',
+    fontSize: '16px',
+    fontWeight: 400,
+    color: '#000000',
+    lineHeight: '1.6',
+  }}
+>
+  <div>Mobile: 929-420-7656</div>
+  <div>Base: NYC, New York</div>
+</div>
+
+</motion.div>  {/* 关闭上面的 motion.div（包住邮箱的那个） */}
+</motion.div>  {/* 关闭最外层 motion.div（Hero 区域动画） */}
+</div>
+</section>
+  
       {/* Selected Works Section */}
       <section className="md:py-32 px-6 md:px-12 lg:px-16 py-[30px] px-[48px] py-[40px]">
         <div className="max-w-[1400px] mx-auto">
