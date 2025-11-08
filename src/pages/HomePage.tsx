@@ -92,7 +92,7 @@ export function HomePage() {
 
 
       {/* Selected Works Section */}
-      <section className="md:py-32 px-6 md:px-12 lg:px-16 py-[30px] px-[48px] py-[40px]">
+      <section className="md:py-28 px-6 md:px-12 lg:px-16 py-[30px] px-[48px] py-[40px]">
         <div className="max-w-[1400px] mx-auto">
           <div className="mb-10">
             <motion.h2
