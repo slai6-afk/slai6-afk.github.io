@@ -37,13 +37,12 @@ export function HomePage() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="pt-[140px] pb-[0px] px-6 md:px-12 lg:px-16 pr-[48px] pl-[48px]">
+      <section className="pt-[160px] pb-[0px] px-6 md:px-12 lg:px-16 pr-[48px] pl-[48px]">
         <div className="max-w-[1400px] mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
-           
           >
             <h1 
               className="mb-12 max-w-5xl"
@@ -70,7 +69,7 @@ export function HomePage() {
                 style={{ fontSize: '16px', fontWeight: 400, color: '#000000' }}
               >
                 <Mail size={20} />
-                <span>Get in touch:shanshanlai160402@gmail.com</span>
+                <span>Get in touch</span>
               </motion.a>
 
 <div
@@ -90,7 +89,8 @@ export function HomePage() {
 </motion.div>  {/* 关闭最外层 motion.div（Hero 区域动画） */}
 </div>
 </section>
-  
+
+
       {/* Selected Works Section */}
       <section className="md:py-32 px-6 md:px-12 lg:px-16 py-[30px] px-[48px] py-[40px]">
         <div className="max-w-[1400px] mx-auto">
