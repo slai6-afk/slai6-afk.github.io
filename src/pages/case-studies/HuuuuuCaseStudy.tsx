@@ -7,7 +7,7 @@ import { StickyTOC } from '../../components/case-study/StickyTOC';
 import { HowMightWeCard } from '../../components/case-study/HowMightWeCard';
 import { FigureWithCaption } from '../../components/case-study/FigureWithCaption';
 import { AlertCircle, Lightbulb, Heart, Wind } from 'lucide-react';
-import heroImage from 'figma:asset/acd2c7b7df432b2ee0f2a21c13aa522a4a491b87.png';
+const heroImage = 'https://cdn.builder.io/api/v1/image/assets%2F46b2761d61834692828a7f7e644854fc%2Febad1e3d1c1241e789cd0daeabbe07d6';
 import contextImage from 'figma:asset/d4bf212ef865fe4182e7ced9ce71b8bf36c22642.png';
 import journeyImage from 'figma:asset/cc6bc14b9d6434396b8eb07e9faa8762d280941f.png';
 import sketchImage from 'figma:asset/d1e347e43af72a40623246a4fee6da3508a68413.png';
