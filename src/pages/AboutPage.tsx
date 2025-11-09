@@ -80,11 +80,30 @@ export function AboutPage() {
               transition={{ duration: 1, delay: 0.2 }}
               className="lg:col-span-5"
             >
-              <div className="aspect-[3/4] bg-[#e5e5e5] overflow-hidden mb-8">
+              <div
+                className="aspect-[3/4] bg-[#e5e5e5] overflow-hidden mb-8"
+                style={{
+                  '@media (max-width: 991px)': {
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'stretch',
+                    backgroundColor: 'rgba(229, 229, 229, 0)',
+                  }
+                }}
+              >
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1706824258534-c3740a1ae96b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMHN0dWRpb3xlbnwxfHx8fDE3NjE4MzA5MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F46b2761d61834692828a7f7e644854fc%2Fd00b64aacbda4fc48b6735b3025538b0"
                   alt="Shane Lai"
                   className="w-full h-full object-cover"
+                  style={{
+                    '@media (max-width: 991px)': {
+                      maxWidth: '500px',
+                      width: '100%',
+                      alignSelf: 'stretch',
+                      height: 'auto',
+                      flexGrow: '0',
+                    }
+                  }}
                 />
               </div>
 
