@@ -62,7 +62,7 @@ export function AboutPage() {
               letterSpacing: '-0.02em'
             }}
           >
-            UX Designer.<br />Product Designer.<br />Code-Driven Thinker.
+            Design with Data.<br />Think in Systems.<br />Build for Humans.
           </motion.h1>
 
           {/* Two Column Layout */}
@@ -255,11 +255,13 @@ export function AboutPage() {
                       I see design as a data-informed process that bridges human intuition and system logic.
                     </strong>
                   </p>
+                  <div>
+                    <p>
+                      My approach integrates quantitative analysis, behavioral insights, and creative exploration to craft experiences that are both evidence-based and emotionally resonant.
+                    </p>
+                  </div>
                   <p>
-                    My approach integrates quantitative analysis, behavioral insights, and creative exploration to craft experiences that are both evidence-based and emotionally resonant.
-                  </p>
-                  <p>
-                    <span style={{ fontSize: '14px' }}>
+                    <span style={{ fontSize: '14px', '@media (max-width: 991px)': { fontSize: '16px' } }}>
                       I believe that data doesn't replace empathy. It refines it, allowing design to scale with clarity, integrity, and measurable impact.
                     </span>
                   </p>
