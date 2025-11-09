@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Mail, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Linkedin } from 'lucide-react';
 
 export function Footer() {
   const socialLinks = [
