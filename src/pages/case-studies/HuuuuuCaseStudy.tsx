@@ -93,7 +93,7 @@ export function HuuuuuCaseStudy() {
                     lineHeight: '1.7',
                     maxWidth: '760px'
                   }}>
-                    Exploring the intersection of comfort, empathy, and gender bias through a breath-sensing glove that brings warmth to cold office spaces — and transforms a private experience into a shared statement.
+                    Exploring the intersection of comfort, empathy, and gender bias through a breath-sensing glove that brings warmth to cold office spaces & transforms a private experience into a shared statement.
                   </p>
                 </div>
 
@@ -186,7 +186,7 @@ export function HuuuuuCaseStudy() {
                   </p>
 
                   <p style={{ fontSize: '16px', color: '#666666', lineHeight: '1.8', marginBottom: '24px' }}>
-                    This isn't just about thermal comfort — it's about whose bodies are centered in "universal" design. Women bring cardigans, blankets, and space heaters to work. They avoid speaking up to prevent being labeled "too sensitive." They internalize systemic bias as personal failure.
+                    This isn't just about thermal comfort. It's about whose bodies are centered in "universal" design. Women bring cardigans, blankets, and space heaters to work. They avoid speaking up to prevent being labeled "too sensitive." They internalize systemic bias as personal failure.
                   </p>
 
                   <p style={{ fontSize: '16px', color: '#666666', lineHeight: '1.8' }}>
@@ -468,8 +468,7 @@ export function HuuuuuCaseStudy() {
                     caption="System flow: exhale into glove → sensor detects humidity → heating activates → data syncs to phone"
                     imgStyle={{
                       '@media (max-width: 991px)': {
-                        backgroundColor: 'rgba(255, 255, 255, 1)',
-                        paddingTop: '36px'
+                        backgroundColor: 'rgba(255, 255, 255, 1)'
                       }
                     }}
                   />
