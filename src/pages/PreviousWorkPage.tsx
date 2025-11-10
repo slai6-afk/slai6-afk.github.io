@@ -45,11 +45,11 @@ export function PreviousWorkPage() {
     },
     {
       title: 'Talkie AI Companion',
-      role: 'UX Research Assistant',
+      role: 'AI Product Manager Intern',
       description: 'Conducted interviews with U.S. truck drivers to understand emotional and physical needs during long hauls. Translated findings into UX flows for AI voice companion, focusing on safety and emotional support.',
       image: 'https://images.unsplash.com/photo-1670509295484-df0c2512fec4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cnVjayUyMGRyaXZlciUyMGhpZ2h3YXl8ZW58MXx8fHwxNzYxODk1MDExfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
       link: '#',
-      category: 'Research',
+      category: 'Intershipe',
       clientName: 'Talkie AI'
     },
     {
@@ -58,7 +58,7 @@ export function PreviousWorkPage() {
       description: 'Led accessibility feature for VR training game in a 30-person startup. Focused on arm-span adaptation for limited-mobility users through visual and haptic redesign, making VR fitness more inclusive.',
       image: 'https://images.unsplash.com/photo-1758521960456-c876c573e0b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxWUiUyMGZpdG5lc3MlMjB0cmFpbmluZ3xlbnwxfHx8fDE3NjE5MzQ5NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
       link: '/case-study/funfitland',
-      category: 'Research',
+      category: 'Intershipe',
       clientName: 'FunFitLand VR'
     },
     {
@@ -67,7 +67,7 @@ export function PreviousWorkPage() {
       description: 'AR system for elderly users to train spatial memory. Built with HoloLens and Unity, combining cognitive science principles with intuitive AR interaction design and real-time feedback mechanisms.',
       image: 'https://images.unsplash.com/photo-1671417722838-3fbaa7f66203?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBUiUyMGhvbG9ncmFtJTIwaW50ZXJmYWNlfGVufDF8fHx8MTc2MTkzNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
       link: '/case-study/memory-navigator',
-      category: 'Personal'
+      category: 'Research'
     }
   ];
 
