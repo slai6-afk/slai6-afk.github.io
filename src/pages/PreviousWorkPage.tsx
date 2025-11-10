@@ -44,10 +44,10 @@ export function PreviousWorkPage() {
       clientName: 'The Little Apple Team'
     },
     {
-      title: 'Talkie AI Companion',
+      title: 'AI Companion',
       role: 'AI Product Manager Intern',
       description: 'Conducted interviews with U.S. truck drivers to understand emotional and physical needs during long hauls. Translated findings into UX flows for AI voice companion, focusing on safety and emotional support.',
-      image: 'https://images.unsplash.com/photo-1670509295484-df0c2512fec4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cnVjayUyMGRyaXZlciUyMGhpZ2h3YXl8ZW58MXx8fHwxNzYxODk1MDExfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F46b2761d61834692828a7f7e644854fc%2F8f1c564879944802a28da9b67b45e07b',
       link: '#',
       category: 'Intershipe',
       clientName: 'Talkie AI'
