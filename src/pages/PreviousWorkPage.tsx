@@ -11,7 +11,7 @@ export function PreviousWorkPage() {
       title: 'Temu',
       role: 'Product Designer(current)',
       description: 'Improved AI-embaded custom service user experience (under NDA). Focused on interaction efficiency and service usability for AI chat platforms serving global e-commerce users.',
-      image: 'https://images.unsplash.com/photo-1643906226799-59eab234e41d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjBtb2JpbGUlMjBhcHB8ZW58MXx8fHwxNzYxODk5MDIzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      iimage: 'https://cdn.builder.io/api/v1/image/assets%2F46b2761d61834692828a7f7e644854fc%2F4c111f71a8ad40d1b529a26875b1a9a2',
       link: '#',
       category: 'Internship',
       clientName: 'Temu'
