@@ -37,24 +37,43 @@ export function HomePage() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="pt-[160px] pb-[0px] px-6 md:px-12 lg:px-16 pr-[48px] pl-[48px]">
+      <section className="pt-[160px] pb-[0px] px-6 md:px-12 lg:px-16 pr-[48px] pl-[48px]" style={{ "@media (max-width: 991px)": { paddingTop: "100px" } } as any}>
         <div className="max-w-[1400px] mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
           >
-            <h1 
+            <h1
               className="mb-12 max-w-5xl"
-              style={{ 
-                color: '#000000', 
+              style={{
+                color: '#000000',
                 fontSize: 'clamp(40px, 6vw, 80px)',
                 fontWeight: 400,
                 lineHeight: '1.2',
                 letterSpacing: '-0.02em'
               }}
             >
-            Turning data, systems, and human behavior into meaningful design
+              <div>
+                <span style={{ fontSize: '54.9px' }}>
+                  Turning Data,&nbsp;&nbsp;
+                </span>
+              </div>
+              <div>
+                <span style={{ fontSize: '54.9px' }}>
+                  Systems,&nbsp;&nbsp;
+                </span>
+              </div>
+              <div>
+                <span style={{ fontSize: '54.9px' }}>
+                  Human Behavior&nbsp;&nbsp;
+                </span>
+              </div>
+              <div>
+                <span style={{ fontSize: '54.9px' }}>
+                  Into Meaningful Design.
+                </span>
+              </div>
             </h1>
 
             <motion.div
