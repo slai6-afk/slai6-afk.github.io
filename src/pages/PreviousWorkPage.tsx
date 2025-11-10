@@ -48,7 +48,7 @@ export function PreviousWorkPage() {
       role: 'UX Research Assistant',
       description: 'Conducted interviews with U.S. truck drivers to understand emotional and physical needs during long hauls. Translated findings into UX flows for AI voice companion, focusing on safety and emotional support.',
       image: 'https://images.unsplash.com/photo-1670509295484-df0c2512fec4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cnVjayUyMGRyaXZlciUyMGhpZ2h3YXl8ZW58MXx8fHwxNzYxODk1MDExfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      link: '/case-study/talkie',
+      link: '#',
       category: 'Research',
       clientName: 'Talkie AI'
     },
@@ -67,14 +67,6 @@ export function PreviousWorkPage() {
       description: 'AR system for elderly users to train spatial memory. Built with HoloLens and Unity, combining cognitive science principles with intuitive AR interaction design and real-time feedback mechanisms.',
       image: 'https://images.unsplash.com/photo-1671417722838-3fbaa7f66203?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBUiUyMGhvbG9ncmFtJTIwaW50ZXJmYWNlfGVufDF8fHx8MTc2MTkzNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
       link: '/case-study/memory-navigator',
-      category: 'Personal'
-    },
-    {
-      title: 'Zephyr\'s Lament',
-      role: 'Data Artist',
-      description: 'Interactive installation translating climate data into sculptural visual forms. Explores the sacred quality of environmental data through slow motion and light at 0.4 cm/s, creating contemplative experiences.',
-      image: 'https://images.unsplash.com/photo-1756756412200-f4721d505d08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjbGltYXRlJTIwZGF0YSUyMHZpc3VhbGl6YXRpb258ZW58MXx8fHwxNzYxOTIyMzUxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      link: '#',
       category: 'Personal'
     }
   ];
