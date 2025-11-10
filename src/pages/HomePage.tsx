@@ -54,23 +54,23 @@ export function HomePage() {
                 letterSpacing: '-0.02em'
               }}
             >
-              <div>
-                <span style={{ fontSize: '54.9px' }}>
+              <div className="hero-title-line line-1">
+                <span className="hero-title-text text-1" style={{ fontSize: '54.9px' }}>
                   Turning Data,&nbsp;&nbsp;
                 </span>
               </div>
-              <div>
-                <span style={{ fontSize: '54.9px' }}>
+              <div className="hero-title-line line-2">
+                <span className="hero-title-text text-2" style={{ fontSize: '54.9px' }}>
                   Systems,&nbsp;&nbsp;
                 </span>
               </div>
-              <div>
-                <span style={{ fontSize: '54.9px' }}>
+              <div className="hero-title-line line-3">
+                <span className="hero-title-text text-3" style={{ fontSize: '54.9px' }}>
                   Human Behavior&nbsp;&nbsp;
                 </span>
               </div>
-              <div>
-                <span style={{ fontSize: '54.9px' }}>
+              <div className="hero-title-line">
+                <span className="hero-title-text text-4" style={{ fontSize: '54.9px' }}>
                   Into Meaningful Design.
                 </span>
               </div>
