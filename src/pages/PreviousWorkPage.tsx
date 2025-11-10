@@ -18,7 +18,7 @@ export function PreviousWorkPage() {
     },
     {
       title: 'Minimax',
-      role: 'AI Product Intern',
+      role: 'AI Product Intern(APM)',
       description: 'Defined and developed AI voice companion features; optimized long-duration voice interactions, boosting feature retention by 23%. Refined gamified card collection mechanics, increasing daily active users by 12% within three months.',
       image: 'https://images.unsplash.com/photo-1725798451557-fc60db3eb6a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBSSUyMGNoYXQlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzYxODUxMDIyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
       link: '#',
@@ -35,22 +35,13 @@ export function PreviousWorkPage() {
       clientName: 'CastChat'
     },
     {
-      title: 'NYC Tourism IA Redesign',
+      title: 'NYC Tourism',
       role: 'Information Architect',
       description: 'Led information architecture redesign for The Little Apple Team. Conducted card sorting and tree testing, improving findability for new-to-NYC students by 30%. Optimized content structure for better user navigation.',
       image: 'https://images.unsplash.com/photo-1631116615407-bc27638e6b0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxOWUMlMjB0b3VyaXNtJTIwY2l0eXxlbnwxfHx8fDE3NjE5MzQ5NzF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
       link: '/case-study/nyc-tourism',
       category: 'Research',
       clientName: 'The Little Apple Team'
-    },
-    {
-      title: 'AI Companion',
-      role: 'AI Product Manager Intern',
-      description: 'Conducted interviews with U.S. truck drivers to understand emotional and physical needs during long hauls. Translated findings into UX flows for AI voice companion, focusing on safety and emotional support.',
-      image: 'https://cdn.builder.io/api/v1/image/assets%2F46b2761d61834692828a7f7e644854fc%2F8f1c564879944802a28da9b67b45e07b',
-      link: '#',
-      category: 'Intershipe',
-      clientName: 'Talkie AI'
     },
     {
       title: 'FunFitLand VR',
