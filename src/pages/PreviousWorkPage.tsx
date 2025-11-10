@@ -61,7 +61,7 @@ export function PreviousWorkPage() {
       title: 'Memory Navigator',
       role: 'AR/UX Designer',
       description: 'AR system for elderly users to train spatial memory. Built with HoloLens and Unity, combining cognitive science principles with intuitive AR interaction design and real-time feedback mechanisms.',
-      image: 'https://images.unsplash.com/photo-1671417722838-3fbaa7f66203?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBUiUyMGhvbG9ncmFtJTIwaW50ZXJmYWNlfGVufDF8fHx8MTc2MTkzNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F46b2761d61834692828a7f7e644854fc%2Fd3d7c1c3590b47178dabf39dc0bd330a',
       link: '/case-study/memory-navigator',
       category: 'Research'
     }
