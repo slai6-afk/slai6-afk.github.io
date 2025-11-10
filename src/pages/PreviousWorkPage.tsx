@@ -11,16 +11,21 @@ export function PreviousWorkPage() {
       title: 'Temu',
       role: 'Product Designer(current)',
       description: 'Improved AI-embaded custom service user experience (under NDA). Focused on interaction efficiency and service usability for AI chat platforms serving global e-commerce users.',
-      image: 'https://images.unsplash.com/photo-1643906226799-59eab234e41d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjBtb2JpbGUlMjBhcHB8ZW58MXx8fHwxNzYxODk5MDIzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F46b2761d61834692828a7f7e644854fc%2F4c111f71a8ad40d1b529a26875b1a9a2',
       link: '#',
       category: 'Internship',
       clientName: 'Temu'
     },
     {
       title: 'Minimax',
-      role: 'AI Product Intern',
+      role: 'AI Product Intern(APM)',
       description: 'Defined and developed AI voice companion features; optimized long-duration voice interactions, boosting feature retention by 23%. Refined gamified card collection mechanics, increasing daily active users by 12% within three months.',
-      image: 'https://images.unsplash.com/photo-1725798451557-fc60db3eb6a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBSSUyMGNoYXQlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzYxODUxMDIyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F46b2761d61834692828a7f7e644854fc%2F717db487d74d47828363ddbef4c1b71e',
+      imgStyle: {
+        '@media (max-width: 991px)': {
+          backgroundColor: 'rgba(255, 255, 255, 1)',
+        }
+      },
       link: '#',
       category: 'Internship',
       clientName: 'Minimax'
@@ -29,13 +34,13 @@ export function PreviousWorkPage() {
       title: 'CastChat',
       role: 'UX Designer Intern',
       description: 'Conducted competitive research and proposed practical design solutions. Collaborated with product managers and UI designers to improve leaderboard interaction and user flow for social AI platform.',
-      image: 'https://images.unsplash.com/photo-1689872330350-87e38c591b4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzb2NpYWwlMjBtZWRpYSUyMGFwcCUyMGRlc2lnbnxlbnwxfHx8fDE3NjE5MzUwMDZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F46b2761d61834692828a7f7e644854fc%2Fce938746fb44488b97f7c9c2929ae6ff',
       link: '#',
       category: 'Internship',
       clientName: 'CastChat'
     },
     {
-      title: 'NYC Tourism IA Redesign',
+      title: 'NYC Tourism',
       role: 'Information Architect',
       description: 'Led information architecture redesign for The Little Apple Team. Conducted card sorting and tree testing, improving findability for new-to-NYC students by 30%. Optimized content structure for better user navigation.',
       image: 'https://images.unsplash.com/photo-1631116615407-bc27638e6b0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxOWUMlMjB0b3VyaXNtJTIwY2l0eXxlbnwxfHx8fDE3NjE5MzQ5NzF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
@@ -44,38 +49,21 @@ export function PreviousWorkPage() {
       clientName: 'The Little Apple Team'
     },
     {
-      title: 'Talkie AI Companion',
-      role: 'UX Research Assistant',
-      description: 'Conducted interviews with U.S. truck drivers to understand emotional and physical needs during long hauls. Translated findings into UX flows for AI voice companion, focusing on safety and emotional support.',
-      image: 'https://images.unsplash.com/photo-1670509295484-df0c2512fec4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cnVjayUyMGRyaXZlciUyMGhpZ2h3YXl8ZW58MXx8fHwxNzYxODk1MDExfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      link: '/case-study/talkie',
-      category: 'Research',
-      clientName: 'Talkie AI'
-    },
-    {
       title: 'FunFitLand VR',
       role: 'UX Design Intern',
       description: 'Led accessibility feature for VR training game in a 30-person startup. Focused on arm-span adaptation for limited-mobility users through visual and haptic redesign, making VR fitness more inclusive.',
       image: 'https://images.unsplash.com/photo-1758521960456-c876c573e0b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxWUiUyMGZpdG5lc3MlMjB0cmFpbmluZ3xlbnwxfHx8fDE3NjE5MzQ5NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
       link: '/case-study/funfitland',
-      category: 'Research',
+      category: 'Intershipe',
       clientName: 'FunFitLand VR'
     },
     {
       title: 'Memory Navigator',
       role: 'AR/UX Designer',
       description: 'AR system for elderly users to train spatial memory. Built with HoloLens and Unity, combining cognitive science principles with intuitive AR interaction design and real-time feedback mechanisms.',
-      image: 'https://images.unsplash.com/photo-1671417722838-3fbaa7f66203?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBUiUyMGhvbG9ncmFtJTIwaW50ZXJmYWNlfGVufDF8fHx8MTc2MTkzNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F46b2761d61834692828a7f7e644854fc%2Fd3d7c1c3590b47178dabf39dc0bd330a',
       link: '/case-study/memory-navigator',
-      category: 'Personal'
-    },
-    {
-      title: 'Zephyr\'s Lament',
-      role: 'Data Artist',
-      description: 'Interactive installation translating climate data into sculptural visual forms. Explores the sacred quality of environmental data through slow motion and light at 0.4 cm/s, creating contemplative experiences.',
-      image: 'https://images.unsplash.com/photo-1756756412200-f4721d505d08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjbGltYXRlJTIwZGF0YSUyMHZpc3VhbGl6YXRpb258ZW58MXx8fHwxNzYxOTIyMzUxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      link: '#',
-      category: 'Personal'
+      category: 'Research'
     }
   ];
 

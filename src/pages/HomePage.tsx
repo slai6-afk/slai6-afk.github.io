@@ -44,17 +44,36 @@ export function HomePage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
           >
-            <h1 
+            <h1
               className="mb-12 max-w-5xl"
-              style={{ 
-                color: '#000000', 
+              style={{
+                color: '#000000',
                 fontSize: 'clamp(40px, 6vw, 80px)',
                 fontWeight: 400,
                 lineHeight: '1.2',
                 letterSpacing: '-0.02em'
               }}
             >
-              Transforming complex ideas into intuitive, human-centered experiences.
+              <div className="hero-title-line line-1">
+                <span className="hero-title-text text-1" style={{ fontSize: '54.9px' }}>
+                  Turning Data,&nbsp;&nbsp;
+                </span>
+              </div>
+              <div className="hero-title-line line-2">
+                <span className="hero-title-text text-2" style={{ fontSize: '54.9px' }}>
+                  Systems,&nbsp;&nbsp;
+                </span>
+              </div>
+              <div className="hero-title-line line-3">
+                <span className="hero-title-text text-3" style={{ fontSize: '54.9px' }}>
+                  Human Behavior&nbsp;&nbsp;
+                </span>
+              </div>
+              <div className="hero-title-line">
+                <span className="hero-title-text text-4" style={{ fontSize: '54.9px' }}>
+                  Into Meaningful Design.
+                </span>
+              </div>
             </h1>
 
             <motion.div
@@ -122,7 +141,7 @@ export function HomePage() {
                 fontWeight: 400
               }}
             >
-              <ArrowDown size={16} />
+<ArrowDown size={16} />
               <span>Scroll down</span>
             </motion.div>
           </div>
