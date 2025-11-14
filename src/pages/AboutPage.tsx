@@ -15,7 +15,7 @@ export function AboutPage() {
     {
       icon: FileText,
       label: 'Resume',
-      url: 'https://a378b32952bb4365821281b3623c6cd1-e9a7ea443472457392199db97.fly.dev/about?reload=1762709569492#',
+      url: 'https://drive.google.com/file/d/1xXr0dZ3-o7-rn7tfaF30Pl9lIVBagJQF/view?usp=sharing',
       description: 'Download CV'
     }
   ];
@@ -198,9 +198,7 @@ export function AboutPage() {
                     </p>
                     <p style={{ fontSize: '14px', color: '#999999', marginBottom: '8px' }}>Jan 2024 – Aug 2024</p>
                     <p>
-                      Defined and developed AI voice companion features; optimized long-duration 
-                      voice interactions, boosting feature retention by 23%. Refined gamified card 
-                      collection mechanics, increasing daily active users by 12% within three months.
+                      Led the design and testing of an offline voice companion feature for Talkie, an AI-powered app with 1M+ DAU. Defined product requirements and collaborated with AI engineers to refine multimodal models for long-duration dialogue. The feature launch increased daily retention by 23% and became a core user engagement driver.
                     </p>
                   </div>
                   
@@ -208,11 +206,19 @@ export function AboutPage() {
                     <p style={{ color: '#000000', fontWeight: 500 }}>
                       CastChat — UX Designer Intern
                     </p>
-                    <p style={{ fontSize: '14px', color: '#999999', marginBottom: '8px' }}>May 2024 – Sep 2024</p>
+                    <p style={{ fontSize: '14px', color: '#999999', marginBottom: '8px' }}>Apr 2024 – Aug 2024</p>
                     <p>
-                      Conducted competitive research and proposed practical design solutions. 
-                      Collaborated with product managers and UI designers to improve leaderboard 
-                      interaction and user flow.
+                      Collaborated with the creative and engineering teams to design generative content experiences for marketing workflows. Prototyped and validated creative tools that reduced campaign asset production time by 42%.
+                    </p>
+                  </div>
+
+                  <div>
+                    <p style={{ color: '#000000', fontWeight: 500 }}>
+                      UFit — Product Intern
+                    </p>
+                    <p style={{ fontSize: '14px', color: '#999999', marginBottom: '8px' }}>Jan 2023 – May 2023</p>
+                    <p>
+                      Supported the development of Funfitland, a top-ranked VR fitness product in Meta Quest Store. Conducted user data analysis on feature adoption and crafted the FAQ system to streamline onboarding. Improved feature retention by 21% through data-driven iterations and A/B testing.
                     </p>
                   </div>
                 </div>
