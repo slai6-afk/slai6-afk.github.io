@@ -15,7 +15,7 @@ export function AboutPage() {
     {
       icon: FileText,
       label: 'Resume',
-      url: 'https://a378b32952bb4365821281b3623c6cd1-e9a7ea443472457392199db97.fly.dev/about?reload=1762709569492#',
+      url: 'https://drive.google.com/file/d/1xXr0dZ3-o7-rn7tfaF30Pl9lIVBagJQF/view?usp=sharing',
       description: 'Download CV'
     }
   ];
