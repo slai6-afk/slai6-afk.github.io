@@ -2,7 +2,7 @@ app = "shane-lai"
 primary_region = "lax"
 
 [build]
-  image = "shane-lai:deployment"
+  dockerfile = "Dockerfile"
 
 [env]
   PORT = "8080"
